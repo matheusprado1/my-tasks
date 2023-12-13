@@ -1,13 +1,13 @@
 # Gerenciador de Tarefas
 
-Este projeto é um aplicativo web básico para gerenciamento de tarefas, desenvolvido utilizando HTML, CSS e JavaScript. A aplicação permite aos usuários adicionar, organizar e pesquisar tarefas de forma eficiente, com opções de prioridade. Os ícones são fornecidos pela biblioteca Font Awesome para uma experiência visual aprimorada.
+Este projeto é um aplicativo web básico para gerenciamento de tarefas, desenvolvido utilizando HTML, CSS (seguindo a metodologia BEM) e JavaScript. A aplicação permite aos usuários adicionar, organizar e pesquisar tarefas de forma eficiente, com opções de prioridade. Os ícones são fornecidos pela biblioteca Font Awesome para uma experiência visual aprimorada.
 
 ## Funcionalidades
 
 - Adição dinâmica de tarefas.
 - Organização por prioridade (Urgente, Prioritário, Normal).
 - Pesquisa de tarefas por título.
-- Interface amigável.
+- Interface amigável e responsiva.
 
 ## Como Usar
 
@@ -17,6 +17,6 @@ Este projeto é um aplicativo web básico para gerenciamento de tarefas, desenvo
 
 Sinta-se à vontade para explorar e expandir este projeto de gerenciamento de tarefas conforme suas necessidades.
 
-**Autor:** Matheus Prado
+**Autor:** [Seu Nome]
 
-
+**Licença:** Este projeto está sob a Licença [MIT](LICENSE).
