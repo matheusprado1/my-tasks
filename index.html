@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/e2cdd2fd51.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>My Task's</title>
+</head>
+
+<body>
+  <header class="c-header">
+    <h1 class="c-header__title">MY TASK'S</h1>
+    <div class="c-header__search">
+      <input class="c-header__input" type="text" placeholder="Pesquisar Tarefa">
+      <i class="c-header__icon fa-solid fa-magnifying-glass"></i>
+    </div>
+  </header>
+
+  </header>
+  <div class="c-main">
+    <div class="c-insert">
+      <div class="c-insert__div">
+        <h3 class="c-insert__title">Inserir tarefa</h3>
+        <form class="c-insert__form" action="" method="post">
+          <div class="c-insert__form__div">
+            <input class="c-insert__input" type="text" placeholder="Digitar título da tarefa" id="c-insert__input--add">
+            <select class="c-insert__select" name="select" id="c-insert__select--add">
+              <option class="c-insert__select__option" value="" disabled selected hidden>Selecionar tipo</option>
+              <option class="c-insert__select__option" value="urgente">Urgente</option>
+              <option class="c-insert__select__option" value="prioritario">Prioritário</option>
+              <option class="c-insert__select__option" value="normal">Normal</option>
+            </select>
+          </div>
+          <button class="c-insert__button" type="submit" id="c-insert__button--add">Adicionar Tarefa na Lista</button>
+        </form>
+      </div>
+    </div>
+    <div class="c-tasks">
+      <div class="c-tasks__div">
+        <h3 class="c-tasks__title">Tarefas</h3>
+        <ul class="c-tasks__list"></ul>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="./main.js"></script>
+</body>
+
+</html>

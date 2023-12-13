@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Lato&display=swap');
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #F9F9F9;
+  font-family: 'Lato', sans-serif;
+}
+
+.c-header {
+  width: 100vw;
+  height: 3.25rem;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 1px 2px grey;
+}
+
+.c-header__title {
+  font-size: 1.5rem;
+  color: #3B5BDB;
+}
+
+.c-header__search {
+  position: relative;
+  display: inline-block;
+}
+
+.c-header__search input {
+  padding: 0.7rem;
+  border: none;
+  border-radius: 8px;
+  
+  background-color: #F1F3F5;
+
+}
+
+
+
+.c-header__search .c-header__icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #868E96;
+}
+
+.c-main {
+  height: 90%;
+  width: 62%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 19%;
+  margin-right: 20%;
+}
+
+.c-insert {
+  height: 35%;
+  width: 100%;
+  margin-top: 2rem;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+}
+
+.c-insert__title {
+  font-size: 1.5rem;
+  padding: 2rem 0 0 2rem;
+}
+
+.c-insert__div {
+ 
+}
+
+.c-insert__form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.c-insert__form__div {
+  display: flex;
+  padding: 1rem;
+}
+
+.c-insert__input {
+  width: 50%;
+  margin-right: 1%;
+  padding: 0.8rem;
+
+}
+
+.c-insert__select {
+  width: 50%;
+}
+
+.c-insert__input, .c-insert__select {
+  border: none;
+  border-radius: 10px;
+  background-color: #F1F3F5;
+  color: #868E96;
+}
+
+.c-insert__select__option {
+  color: #000;
+}
+
+.c-insert__button {
+  border: none;
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin: 0.938rem;
+  font-size: 0.925rem;
+  background-color: #3B5BDB;
+  color: #fff;
+  cursor: pointer;
+}
+
+.c-tasks {
+  height: 50%;
+  width: 100%;
+  margin-top: 2rem;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+}
+
+.c-tasks__title {
+  font-size: 1.5rem;
+  padding: 2rem 0 0 2rem;
+}
+
+.c-tasks__content {
+  display: flex;
+  align-items: center;
+  
+}
+
+.c-tasks__message {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 11%;
+}
+
+.c-tasks__item {
+
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+
+  
+  margin: 1rem 2rem 10px 2rem;
+
+  padding: 1.625rem;
+  display: flex;
+  justify-content: flex-start;
+
+  background-color: #F1F3F5;
+  border-radius: 8px;
+}
+
+.c-tasks__item .ball {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.c-tasks__item p {
+  margin: 0;
+}
+
+.c-task__button--remove{
+  border: none;
+  color: #868E96;
+  cursor: pointer;
+
+  margin-left: auto;
+}
+
+
+
