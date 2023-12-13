@@ -7,7 +7,7 @@ Este projeto é um aplicativo web básico para gerenciamento de tarefas, desenvo
 - Adição dinâmica de tarefas.
 - Organização por prioridade (Urgente, Prioritário, Normal).
 - Pesquisa de tarefas por título.
-- Interface amigável e responsiva.
+- Interface amigável.
 
 ## Como Usar
 
