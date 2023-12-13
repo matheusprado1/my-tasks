@@ -17,6 +17,4 @@ Este projeto é um aplicativo web básico para gerenciamento de tarefas, desenvo
 
 Sinta-se à vontade para explorar e expandir este projeto de gerenciamento de tarefas conforme suas necessidades.
 
-**Autor:** [Seu Nome]
-
-**Licença:** Este projeto está sob a Licença [MIT](LICENSE).
+**Autor:** Matheus Prado
